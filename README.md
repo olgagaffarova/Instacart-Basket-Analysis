@@ -61,18 +61,14 @@ The analysis was conducted in **Python** using **Jupyter notebooks**, with the f
 - **matplotlib.ticker.FuncFormatter** → Custom axis formatting in plots  
 - **seaborn** → Statistical data visualization  
 - **scipy** → Scientific and technical computing  
-
----
-
-## Disclaimer
-Instacart is a real company that has made this dataset publicly available. However, the customer data included here is **fictitious** and was created for educational purposes as part of CareerFoundry’s Data Analytics Program.  
-
----
-
-## Author
-Data Analysis by **Olga Gaffarova**  
+  
 
 ---
 
 ## Disclaimer: 
 Instacart is a real company that’s made their data available online, however customer data is fictitious and used for the purposes of Career Foundry's Data Analytics program. 
+
+---
+
+## Author
+Data Analysis by **Olga Gaffarova**  
