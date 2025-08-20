@@ -17,8 +17,8 @@ This repository provides an in-depth exploratory analysis of Instacart's sales d
 
 ## Folders
 Description of folder contents are as follows:
-- 01 Project Management: Contains the project brief and related documentation.
-- 02 Data: Includes two subfolders: (Data not uploaded to GitHub due to size limitations.)
+- 01 Project Management: Contains the project brief.
+- 02 Data: Includes two subfolders: (Data not uploaded to GitHub due to size limitations, but here is the link to download it from google drive - https://drive.google.com/drive/folders/1sKiNm2t4CdJtlEIwNIbfpmpCsSITeHX1?usp=sharing.)
   - 'Original Data': Original datasets.
   - 'Prepared Data': Cleaned data ready for analysis.
 - 03 Scripts: Python code for the analysis, executed using Jupyter notebooks.
