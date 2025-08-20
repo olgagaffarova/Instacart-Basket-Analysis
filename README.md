@@ -1,7 +1,13 @@
 # Instacart Grocery Analysis
 
 ## Project Summary
-This repository provides an in-depth exploratory analysis of Instacart's sales data, focusing on uncovering key customer purchasing patterns. As an analyst for Instacart, the goal is to derive actionable insights that will inform targeted marketing strategies. The analysis addresses critical questions from the sales and marketing teams, including identifying the busiest days and hours for orders, understanding spending patterns, and exploring product popularity by department. Additionally, the project delves into customer segmentation, examining differences in behavior by brand loyalty, region, age, income, and family status. These insights will help Instacart tailor marketing campaigns to more effectively engage diverse customer profiles, boost sales, and enhance the relevance of promotions and ads.
+Instacart is an online grocery store that operates through an app. This project explores a dataset of Instacart sales transactions to uncover customer purchasing patterns and provide insights that could guide targeted marketing strategies.  
+
+The analysis focuses on answering business-related questions, such as when customers shop the most, which products are most popular, and how different customer segments behave. These insights can help inform Instacart’s marketing and sales decisions, making campaigns more effective and personalized.  
+
+The analysis addresses critical questions from the sales and marketing teams, including identifying the busiest days and hours for orders, understanding spending patterns, and exploring product popularity by department. Additionally, the project delves into customer segmentation, examining differences in behavior by brand loyalty, region, age, income, and family status. These insights will help Instacart tailor marketing campaigns to more effectively engage diverse customer profiles, boost sales, and enhance the relevance of promotions and ads.
+
+---
 
 ## Key Questions
 - What are the busiest days of the week and hours of the day?
@@ -15,26 +21,58 @@ This repository provides an in-depth exploratory analysis of Instacart's sales d
 - What classifications can be derived from demographic information, such as age, income, types of goods, and family status?
 - How do ordering habits differ among various customer profiles?
 
-## Folders
-Description of folder contents are as follows:
-- 01 Project Management: Contains the project brief.
-- 02 Data: Includes two subfolders: (Data not uploaded to GitHub due to size limitations, but here is the link to download it from google drive - https://drive.google.com/drive/folders/1sKiNm2t4CdJtlEIwNIbfpmpCsSITeHX1?usp=sharing.)
-  - 'Original Data': Original datasets.
-  - 'Prepared Data': Cleaned data ready for analysis.
-- 03 Scripts: Python code for the analysis, executed using Jupyter notebooks.
-- 04 Analysis: Contains the 'Visualizations' subfolder with all visualizations used for exploratory analysis and explaining insights.
-- 05 Sent to Client: Final Excel presentation.
+---
 
-## Code Overview
-Code was written in Python and executed in Jupyter notebooks.
-##### Utilizes the following libraries:
-- Pandas: For data manipulation and analysis
-- NumPy: For numerical operations and array handling
-- OS: For interacting with the operating system, including file and directory operations
-- Matplotlib.pyplot: For creating static, interactive, and animated visualizations
-- Matplotlib.ticker.FuncFormatter: For custom formatting of axis ticks in plots
-- Seaborn: For statistical data visualization and creating informative, attractive graphics
-- Scipy: For scientific and technical computing, including advanced mathematical functions
+## Data Set
+The dataset contains information about customer orders, products, and departments, as well as added demographic variables (age, income, and number of dependents).  
+
+**Note**: Due to file size limitations, the dataset is not uploaded to GitHub.  
+You can download it here: [Instacart Data Set (Google Drive)](https://drive.google.com/drive/folders/1sKiNm2t4CdJtlEIwNIbfpmpCsSITeHX1?usp=sharing)  
+
+---
+
+### 01 Project Management  
+- **Project Brief** → Overview of project goals and requirements  
+
+### 02 Data  
+- **Original Data** → Raw data provided for analysis  
+- **Prepared Data** → Cleaned and prepared datasets used in the project  
+
+### 03 Scripts  
+- Python scripts (Jupyter notebooks) for data cleaning, exploration, and analysis  
+
+### 04 Analysis  
+- **Visualizations** → Charts and plots created during the exploratory analysis to illustrate findings and insights  
+
+### 05 Sent to Client  
+- Final Excel presentation with summarized insights and recommendations  
+
+### README.md  
+This file (project documentation)  
+
+---
+
+## Tools and Libraries Used
+The analysis was conducted in **Python** using **Jupyter notebooks**, with the following libraries:  
+- **pandas** → Data manipulation and analysis  
+- **numpy** → Numerical operations  
+- **os** → For interacting with the operating system, including file and directory operations  
+- **matplotlib.pyplot** → Static, interactive, and animated visualizations  
+- **matplotlib.ticker.FuncFormatter** → Custom axis formatting in plots  
+- **seaborn** → Statistical data visualization  
+- **scipy** → Scientific and technical computing  
+
+---
+
+## Disclaimer
+Instacart is a real company that has made this dataset publicly available. However, the customer data included here is **fictitious** and was created for educational purposes as part of CareerFoundry’s Data Analytics Program.  
+
+---
+
+## Author
+Data Analysis by **Olga Gaffarova**  
+
+---
 
 ## Disclaimer: 
 Instacart is a real company that’s made their data available online, however customer data is fictitious and used for the purposes of Career Foundry's Data Analytics program. 
